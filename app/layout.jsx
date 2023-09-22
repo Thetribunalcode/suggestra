@@ -6,10 +6,7 @@ import { Nav } from "@components/Nav";
 import { Provider } from "@components/Provider";
 import{ motion } from "framer-motion";
 import { ThemeProvider } from "next-themes";
-export const metadata = {
-  title: "Suggestra",
-  description: "Discover and share user suggestions and video ideas too.",
-};
+
 
 const RootLayout = ({ children }) => {
   return (
