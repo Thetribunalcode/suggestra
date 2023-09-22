@@ -24,7 +24,7 @@ export const Nav = () => {
       const response = await getProviders();
       setProviders(response);
     };
-    setTheme("light")
+    setTheme("dark")
     setUpProviders();
   }, []);
 
